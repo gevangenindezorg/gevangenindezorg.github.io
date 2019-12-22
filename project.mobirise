@@ -1,0 +1,168 @@
+{
+  "settings": {
+    "name": "Site-12-01_1902",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Noto Sans",
+        "display5Size": "4",
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Noto Sans",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.11.6",
+    "siteFonts": [
+      {
+        "css": "'Noto Sans', sans-serif",
+        "name": "Noto Sans",
+        "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i"
+      },
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "uniqCompNum": 10,
+    "versionPublish": "4.11.6",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/caught-1013600-1920-128x128.png",
+    "robotsSwitcher": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "http://gevangenindezorg.epizy.com",
+    "sitemapSwitcherAuto": "on",
+    "noImageResize": true,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Tekstbreedte\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Lijnbreedte\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"lijnkleur\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Gevangen in de zorg</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rJqv3Lg0A7",
+          "_anchor": "content9-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            "DIV": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-multiline mbr-article>\n                <blockquote><p><span style=\"font-style: normal; font-size: 1.09rem;\">Een glanzende laptop staat klaar voor iemand die er nog geen heeft, er kan weer iemand blij worden gemaakt. Uiteraard had het wat ‘TLC’ nodig, maar als je geduldig bent is een computer een dankbaar voorwerp. Of zoals gisteren, zorgen dat de basis van een organisatie werkbaar wordt, zodat anderen hun projecten kunnen opzetten. &nbsp;</span><br></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Het is fijn anderen te helpen waar ik kan, op welke vlak dan ook. Particulier of voor een bedrijf, of het nu administratie, financiën, ICT of organisatorisch werk betreft, ik doe het graag en snel. Mijn inzet en werkwijze blijven hetzelfde, of het nu een commercieel bedrijf of een non-profitorganisatie is. Mijn beloning is toch iets gecreëerd te hebben, ook al is het geen meubel zoals ruim twintig jaar geleden uit mij en mijn vaders handen voortvloeide. En incidenteel een lach, blijdschap dat iets (weer) werkt, daar kan ik wel een dag op vooruit. &nbsp;</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\"><br></span><b style=\"font-size: 1.09rem;\">Verblijf in de zorg </b></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">               \t\t\t\t\t\t\t\t\t      Wat ik echter merk is het belang van een (veilige) basis om vanuit te kunnen opereren, een prettige plek om te verblijven, (nacht)rust te pakken, zodat ik door kan gaan met wat ik doe. En dat ontbeer ik sinds begin dit jaar: door beëindiging van een relatie raakte ik alles kwijt en ben ik bij een GGZ-instelling terecht gekomen; er waren even geen andere mogelijkheden. &nbsp;</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Hoe ironisch kan het lot zijn: de instelling is gesitueerd in een herontwikkeld oud kantoorpand voor daklozen met dubbele problematiek. Dit is een herontwikkeling waar ik indertijd zelf aan mee heb gewerkt als medewerker van het uitvoerende bouwbedrijf, ik ken het pand dus goed. Hoe de gang van zaken zou zijn aldaar kon ik indertijd slechts raden, maar heb ik inmiddels aan den lijve ondervonden. &nbsp;</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Het is een verre van prettige plek om te verblijven, allerminst een veilige basis en (nacht)rust is er zeldzaam. \"Helpen bij mensen die psychisch lijden, dat is ons werk!\" is onder andere het credo van de instelling. Ik ervaar echter dat het psychisch lijden vergroot wordt en dat kan niet de bedoeling zijn van een GGZ-instelling. De instelling zelf noemt zich in haar brochure zelfs een ‘psychiatrisch centrum’.&nbsp;</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"><br></span><b style=\"font-size: 1.09rem;\">Bedreigingen en privacyschendingen</b></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Het is helaas wel de dagelijkse gang van zaken. Bedreigingen van medecliënten, soms ook van het personeel, horen erbij. Ook heb ik weleens kleine pesterijen van het personeel ondervonden, omdat ik een vreemde eend in de bijt ben of omdat cliënten nou eenmaal zo benaderd worden hier. Bij de intake werd al direct op dreigende toon gemeld dat bij het niet naleven van de huisregels de consequentie zou zijn dat ik de straat op moest.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Soms zijn de pesterijen groot in deze organisatie. Zo weet ik nog goed dat een verpleegkundige bij een andere vestiging een dansje voor mij maakte. Hij, een ZZP’er in de zorg, zong daarbij: \"Ik ben zo blij, ik ben zo vrolijk, want ik heb een dak boven mijn hoofd.\" Hij maakte ondertussen met de handen een dakje boven zijn hoofd en vervolgde door in mijn gezicht te roepen: \"En jij niet!\", en liep lachend weg. Eén van de vele voorbeelden.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Bij de instelling waar ik nu verblijf is er regelmatig politie over de vloer om iemand te arresteren. Meubilair en ernstige ziektes vliegen regelmatig langs mijn hoofd, evenals doodsbedreigingen van medecliënten, die me eveneens benaderen voor verkoop van drugs, gestolen goederen of om geld te 'lenen', toevallig altijd € 10 per keer, de prijs van een balletje cocaïne of heroïne. De beveiliging gaf de volgende reactie: \"Daar moet je melding van maken\". Het metalen bestek is vervangen door plastic, naar verluid werden daar wapens van gemaakt.&nbsp;</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Privacy is er n</span><span style=\"font-style: normal; font-size: 1.09rem;\">iet: onverwachts staat er dagelijks personeel in mijn kamer, met name aan het begin van de </span><span style=\"font-style: normal; font-size: 1.09rem;\">nacht. Door de intercom wordt er luid geroepen, soms met sancties erbij zoals stopzetting van medicatie als je niet op komt dagen (in mijn geval medicatie voor diabetes en hartmedicatie). Als je geen onverwacht bezoek krijgt zit je ook niet geheel lekker, bijvoorbeeld als je een telefoongesprek voert, de intercom werkt uiteraard twee kanten op.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"><br></span><b style=\"font-size: 1.09rem;\">Macht via gezondheidszorg</b></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Aangezien dit een GGZ-instelling is, wordt medicatie gereguleerd en onder toezicht verstrekt. Dat betekent dat je als cliënt in dient te nemen wat er in het systeem staat, zonder dat je daar zelf invloed op hebt. Als je dit niet doet, weiger je en zijn er consequenties. En wat is een passende consequentie voor iemand die zich niet aan de voorwaarden houdt, maar die dakloos is en alles kwijt is in zijn of haar leven? Juist: op straat zetten, met een mooi woord 'bezinningsverlof'.</span>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Inmenging van een derde partij wordt als zeer ongewenst beschouwt. Nadat mijn cardioloog én huisarts contact hadden opgenomen om hun zorgen te uiten over de ontwikkeling van mijn hartfalen bij nog langer verblijf waren er consequenties. Bij een gesprek met de hoofdbehandelaar en de coördinator werd mij toegebeten: “Nu gaan we natuurlijk niets meer voor je doen!”. &nbsp; &nbsp; &nbsp; &nbsp;</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Daarnaast getuigt het medicatiebeleid geenszins van zorgvuldigheid. Het stopzetten van een medicament ging bij mij dan ook faliekant mis. Na 24 jaar werd dit gebruik zonder afbouw stopgezet met enkele maanden ziekte als gevolg. Bezwaar daartegen werd niet gehonoreerd, het zou niet mogelijk zijn geweest ziek te worden van deze abrupte afbouw.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Kritiek en eigen initiatief worden absoluut niet op prijs gesteld en dat is een eufemisme, eigen specialisten inzetten evenmin. Dien je wegens diabetes en hartfalen een dieet te volgen? Vergeet het maar. Psychologische hulp, om het verblijf te doorstaan of om trauma's uit het verleden te verwerken, zoals het verlies van mijn dierbaren, mijn kindje die in juni geboren had moeten worden of de vernietiging van mijn herinneringen aan vroeger, dat is er niet, zelfs niet op aanvraag.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"><br></span><b style=\"font-size: 1.09rem;\">Maatschappelijke teloorgang</b></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Mijn eerder aangegaan vrijwilligerscontract bij een onderdeel van de instelling werd ontbonden zodra ik hier terecht kwam, want als cliënt van een overkoepelende organisatie is een dergelijke arbeidsrelatie niet mogelijk.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Een ander voorbeeld van maatschappelijke teloorgang is dat het hebben van een relatie onmogelijk wordt gemaakt. Immers, zoals gebruikelijk in een instelling mag je geen bezoek laten verblijven na 22:00, laat staan laten overnachten. Sowieso kan ik niemands veiligheid garanderen in mijn leefsituatie. Daarnaast, al zou een partner mogen overnachten en overweg kunnen met het schreeuwen over de gang en door de intercom, het ongewenste bezoek aan de deur, dan staat er ’s nachts een personeelslid letterlijk voor je bed, onverwachts.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Als je even weg wilt zijn, dan dient dat gepland te worden. Een medicatiemoment missen, omdat het wellicht elders zo gezellig is, kan immers dakloosheid tot gevolg hebben (of 'bezinningsverlof', om met de woorden van de instelling te spreken). En ook al is iemand vervelend, als iemand smeekt om alsjeblieft binnen te mogen komen, omdat het zo koud is buiten, doet mij dat verdriet. Ik vind dat middeleeuws. &nbsp;</span></p><p><b style=\"font-size: 1.09rem;\">Fysieke teloorgang</b></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">De kant-en-klaarmaaltijden van de gekozen partner die het zorgconglomeraat van eten voorziet, bestaan vooral uit bindmiddel om een gevuld gevoel te geven. Van een uitgebalanceerde, voedzame maaltijd is geen sprake, vitaminen zijn een zeldzaamheid. Voor het functioneren van een  menselijk lichaam is dit niet genoeg. Omdat ik tijdens de zorg van de organisatie, in vele vormen de afgelopen jaren, diabetes en hartfalen heb opgelopen is er op verzoek van mijn cardioloog en diabetes-verpleegkundige een dieet opgesteld door een diëtiste. Na inlevering bij de hoofdbehandelaar werd dit dieet letterlijk en figuurlijk opzij geschoven.</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Daarnaast is er ook fysieke teloorgang door gebrek aan eerder genoemde rust en slaap. Op een gegeven moment ga je ernaar leven dat er 's nachts iemand in je kamer of voor je bed staat, nachtrust is er dan niet meer. Anticiperen op bedreigingen van medecliënten en soms ook personeel, dat lukt mij nog niet.</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Sinds kort is er een nieuwe ontwikkeling, hevige pijn in boven- en onderarmen. Na medicatiewisseling in overleg met mijn cardioloog bleef de pijn. Een uitgebreid bloedonderzoek leverde ook niets op. De conclusie van de huisarts: de pijn wordt veroorzaakt door stress en spanning als gevolg van mijn huidige leefsituatie.&nbsp;</span></p><p><br></p><p><b style=\"font-size: 1.09rem;\">Toekomst</b></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">De bedoeling was dat dit voor mij een zeer tijdelijk verblijf zou zijn, onder het mom: \"hier hoor jij natuurlijk niet thuis\". Tijdelijk is nu echter ruim acht maanden verder. Ga dan weg zou je zeggen, maar dat gaat niet zo makkelijk.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Voor de vele nazorgprogramma's dien ik aan bepaalde voorwaarden te voldoen. Zicht op een eigen huis, verstandelijk beperkt, ex-gedetineerd, een indicatie verstandelijk gehandicapt 3 tot en met 6 (onder andere hulp bij vervoer of persoonlijke verzorging), niets is op mij van toepassing. Voor een mooi initiatief als Housing First kom je alleen in aanmerking als je je niet kunt handhaven in een groep en intensieve hulp nodig hebt, van administratie tot huishouding. Een regionaal instituut begeleid wonen dan? Dan is er weer de eis van het CAK, circa 75% van het inkomen inleveren en met andere vaste lasten erbij is dat financiële suïcide, afgezien van feit dat er niets opgebouwd kan worden voor een reguliere woning ooit. Inschrijven voor sociale huurwoningen dan? Dat kan, maar de wachttijd is circa acht jaar en de inschrijfduur gaat naar nul elke keer als je verhuist. Urgentie aanvragen dan? Helaas kan dat alleen als je minimaal twee jaar ingeschreven staat in de gemeente en reeds een zelfstandige woning bewoont. Particuliere huur? Dit is onbetaalbaar in deze contreien en daarnaast is een vast arbeidscontract een vereiste. Daarbij, als je alles kwijt bent, van geld tot inboedel, dan is er starterskapitaal nodig voor een nieuw begin. Een sociaal fonds dus? Als dat wordt toegekend keert het fonds pas uit als je een woning hebt kunnen vinden en deze betrokken hebt, mosterd na de maaltijd.&nbsp;</span><span style=\"font-style: normal; font-size: 1.09rem;\">En zo zit je gevangen in een vicieuze cirkel.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"><br></span></p><p><b style=\"font-size: 1.09rem;\">Doelstelling: een eigen bed met privacy</b></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">En ondanks mijn benarde leefsituatie, sta ik toch elke ochtend op om anderen te helpen. Maar het gaat moeizaam en de leefomstandigheden wegen steeds zwaarder. Ik vind mijzelf niet egocentrisch, maar is het egocentrisch om te vragen wie mij helpt, opdat ik anderen kan blijven helpen? Of is dat niet 'comme il faut'?</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Op LinkedIn lees ik verhalen van mensen die succesvol zijn als ultieme doelstelling hebben. Mijn doelstellingen zijn niet zo hoog, een veilige basis zoals gezegd waaruit ik kan herstellen en opbouwen. Een kamer met een kast voor mijn overhemden, een tafel om aan te werken en een bed, maar dan zonder dreigementen, zonder over je schouder te hoeven kijken of niet weten wat je te wachten staat, zonder ongewenst bezoek en met autonomie zoals zelf bepalen wat je slikt of waar je bent. Vanuit zo'n basis kan ik mij weer inzetten voor anderen.&nbsp;</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"><br></span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">(Wegens mogelijke repercussies vanuit bovengenoemde zorginstelling is deze bijdrage voorlopig anoniem, reageren kan via onderstaande button)&nbsp;</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJqtl7skxH",
+          "_anchor": "content2-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/homelesschristmas-1000x669.jpg\" selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    INTRO VOLLE BREEDTE\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Knappe websites voor mobiel\n                </h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Intro op volle breedte met instelbare hoogte, achtergrondafbeelding met kleuroverlay. Klik op willekeurige tekst om te bewerken of vorm te geven.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-left-right mbr-iconfont mbr-iconfont-btn\"></span>\n                        REAGEER</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rJqykbeBR2",
+          "_anchor": "header1-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"mailto:gevangenindezorg@outlook.com\" data-app-placeholder=\"Type Text\">REAGEER</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rJxrv4XBS8",
+          "_anchor": "content8-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
